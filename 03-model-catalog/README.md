@@ -1,6 +1,6 @@
 # Part 3 — Foundry Model Catalog
 
-Code samples for [Foundry Model Catalog — Comparing GPT-4.1, GPT-5 & Open-Weight Models](https://erudinsky.com/2026/06/16/foundry-model-catalog-comparing-gpt-4-1-gpt-5-open-weight-models/) on [erudinsky.com](https://erudinsky.com).
+Code samples for [Foundry Model Catalog — Comparing GPT-4.1, GPT-5 & Open-Weight Models](https://erudinsky.com/2026/06/15/foundry-model-catalog-comparing-gpt-4-1-gpt-5-open-weight-models/) on [erudinsky.com](https://erudinsky.com).
 
 ## What's covered
 

@@ -8,7 +8,7 @@ Code samples for the [Microsoft Foundry blog series](https://erudinsky.com/tags/
 |---|-------|-----------|
 | 1 | Getting started — Provision with Bicep, deploy GPT, generate descriptions | [Read](https://erudinsky.com/2026/05/21/getting-started-with-microsoft-foundry-product-descriptions-with-gpt/) |
 | 2 | Bicep deep dive — networking, RBAC, deployment types, region selection | [Read](https://erudinsky.com/2026/06/01/microsoft-foundry-bicep-deep-dive-networking-rbac-deployment-types/) |
-| 3 | Foundry model catalog — comparing models and when to use what | [Read](https://erudinsky.com/2026/06/16/foundry-model-catalog-comparing-gpt-4-1-gpt-5-open-weight-models/) |
+| 3 | Foundry model catalog — comparing models and when to use what | [Read](https://erudinsky.com/2026/06/15/foundry-model-catalog-comparing-gpt-4-1-gpt-5-open-weight-models/) |
 | 4 | Foundry services overview — agents, Responses API, tools, memory | Coming soon |
 | 5 | Prompt engineering and structured JSON output | Coming soon |
 | 6 | Building the Python API — FastAPI backend with Foundry SDK | Coming soon |
