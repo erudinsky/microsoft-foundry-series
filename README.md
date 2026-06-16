@@ -1,4 +1,4 @@
-# Microsoft Foundry — Practical Series
+  # Microsoft Foundry — Practical Series
 
 Code samples for the [Microsoft Foundry blog series](https://erudinsky.com/tags/microsoft-foundry/) on [erudinsky.com](https://erudinsky.com).
 
@@ -8,7 +8,7 @@ Code samples for the [Microsoft Foundry blog series](https://erudinsky.com/tags/
 |---|-------|-----------|
 | 1 | Getting started — Provision with Bicep, deploy GPT, generate descriptions | [Read](https://erudinsky.com/2026/05/21/getting-started-with-microsoft-foundry-product-descriptions-with-gpt/) |
 | 2 | Bicep deep dive — networking, RBAC, deployment types, region selection | [Read](https://erudinsky.com/2026/06/01/microsoft-foundry-bicep-deep-dive-networking-rbac-deployment-types/) |
-| 3 | Foundry model catalog — comparing models and when to use what | Coming soon |
+| 3 | Foundry model catalog — comparing models and when to use what | [Read](https://erudinsky.com/2026/06/16/foundry-model-catalog-comparing-gpt-4-1-gpt-5-open-weight-models/) |
 | 4 | Foundry services overview — agents, Responses API, tools, memory | Coming soon |
 | 5 | Prompt engineering and structured JSON output | Coming soon |
 | 6 | Building the Python API — FastAPI backend with Foundry SDK | Coming soon |
@@ -37,6 +37,18 @@ foundry-series/
 │           ├── model.bicep         # Model deployment (configurable SKU)
 │           ├── networking.bicep    # VNet + Private Endpoint + DNS
 │           └── rbac.bicep          # Role assignments
+├── 03-model-catalog/
+│   ├── infra/
+│   │   ├── main.bicep              # Multi-model deployment with loop
+│   │   ├── main.bicepparam         # Parameter file
+│   │   └── modules/
+│   │       ├── foundry.bicep       # Foundry resource + project
+│   │       ├── networking.bicep    # VNet + Private Endpoint + DNS
+│   │       └── rbac.bicep          # Role assignments
+│   └── app/
+│       ├── model_router.py         # Smart model routing by task complexity
+│       ├── requirements.txt
+│       └── .env.example
 ```
 
 ## Prerequisites
